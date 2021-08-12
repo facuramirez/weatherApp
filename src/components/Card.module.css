@@ -1,0 +1,92 @@
+#borde{    
+    border: 4px solid black;
+    box-shadow: 0px 1px 1px rgb(82, 81, 81), 1px 2px 1px rgb(82, 81, 81),
+     2px 3px 1px rgb(82, 81, 81), 3px 4px 1px rgb(82, 81, 81);
+    border-radius: 30px;  
+    flex-basis: 20%;
+    padding: 20px;
+    background: linear-gradient(to bottom, #ccc 0%, lightblue 70%, rgb(127, 127, 223) 100%);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 992px){
+    #borde{
+        width: 60%;
+        margin: 0px auto;
+        margin-top: 30px;
+    }
+    .close{
+        justify-self: end !important;
+    }
+}
+
+@media screen and (max-width: 576px){
+    #borde{
+        width: 80%;
+        margin: 0px auto;
+        margin-top: 30px;
+    }
+}
+
+h4{
+    background-color: blue;
+    color: white;
+    font-size: 1.3rem !important;
+    border-radius: 20px;
+    padding: 5px;
+    width: fit-content !important;
+}
+
+.close{
+    background-color: black;
+    color: red;
+    font-weight: bold;
+    font-size: 1.1rem;
+    height: 30px;
+    margin-right: 8px;
+}
+
+
+/* #borde button{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    float: right;   
+} */
+
+/* #borde h2{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-shadow: 3px 3px 2px black;
+    color: white;
+} */
+
+
+#second span{    
+    border-radius: 10px;
+    background-color: orange;
+    font-weight: bold;
+    
+}
+
+#imagen{
+    border-radius: 999px;
+    background: orange;    
+    margin: 0px auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#borde #second .temp{
+    background-color: transparent;    
+    border: none;
+    border-radius: 0px;
+}
+
+.temperature{
+    width: fit-content;
+    padding: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+}

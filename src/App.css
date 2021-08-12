@@ -1,0 +1,20 @@
+body{
+  background-image: url('./img/weather.jpeg');
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+}
+
+.App {
+  text-align: center;
+}
+
+.Home{
+  height: 100vh;
+}
+
+.Footer{
+  background-color: black;
+  color: white;
+  height: 24px;
+}

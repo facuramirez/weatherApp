@@ -1,0 +1,29 @@
+.container{
+    background-image: repeating-linear-gradient(45deg, rgba(226, 226, 226,0.06) 0px, rgba(226, 226, 226,0.06) 2px,transparent 2px, transparent 4px),linear-gradient(90deg, rgb(33,33,33),rgb(33,33,33));
+    height: 100%;
+}
+
+.image{
+    width: 300px;
+}
+
+.container input{
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 20px;
+    outline: none;
+    padding-left: 5px;
+}
+
+.container button{
+    border: 1px solid black;
+    margin-left: 5px;
+    border-radius: 5px;
+    background-color: gray;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.container button:hover{
+    background: linear-gradient(to bottom, blue 0%, lightblue 40%, gray 100%);
+}
